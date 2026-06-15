@@ -1,0 +1,19 @@
+{
+  "name": "@boltstore/utils",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Shared types, schemas, and utilities for Boltstore",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "bun test",
+    "prepublish": "bun run build"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "license": "MIT"
+}
